@@ -52,7 +52,7 @@ function initialiseerEventListeners() {
 }
 
 function toonFoutmelding(bericht) {
-  document.getElementById("foutmelding").textContent = bericht;
+  document.getElementById("foutmelding").textContent = bericht; 
 }
 
 function UpdateOfMaakRij(gekozenGroente, aantal, prijs) {
